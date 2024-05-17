@@ -1,0 +1,42 @@
+
+
+.testimonial-container {
+  display: grid;
+  column-gap: 30px;
+  row-gap: 16px;
+  max-width: 1110px;
+}
+.card {
+  max-width: 350px;
+  height: 254px;
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+  padding: 39px 32px;
+  color: hsl(0, 0%, 100%);
+}
+
+.card > p {
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.profile-container > img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+h3 {
+  font-size: 1.8rem;
+  line-height: 1.25;
+}
+h3 > span {
+  display: block;
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}

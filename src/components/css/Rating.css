@@ -1,0 +1,25 @@
+
+.ratings-container {
+  max-width: 541px;
+}
+.item {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+  min-height: 56px;
+  width: 445px;
+  margin-block: 16px;
+}
+
+
+.rating-comment {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+.star-container img:not(:last-child) {
+  margin-right: 10px;
+}

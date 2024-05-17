@@ -1,0 +1,17 @@
+.header-rating-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+header{
+    box-sizing: border-box;
+    max-width: 418px;
+}
+header>p{
+    line-height: 1.25;
+    margin-top: 25px;
+    color: hsl(303, 10%, 53%);
+    font-size: 1.8rem;
+}
+
